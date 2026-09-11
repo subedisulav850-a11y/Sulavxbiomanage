@@ -31,7 +31,7 @@ app = Flask(__name__)
 # ---------- Constants (OB54 Updated) ----------
 FREEFIRE_UPDATE_URL = "https://clientbp.ggpolarbear.com/UpdateSocialBasicInfo"
 MAJOR_LOGIN_URL = "https://loginbp.ggpolarbear.com/MajorLogin"
-OAUTH_URL = "https://100067.connect.garena.com/oauth/guest/token/grant"
+OAUTH_URL = "https://100067.connect.garena.com/api/v2/oauth/guest/token:grant"
 FREEFIRE_VERSION = "OB54"
 
 # Encryption Keys
